@@ -7,7 +7,7 @@ import FindDonor from './pages/FindDonor.jsx'
 import RegisterDonor from './pages/RegisterDonor.jsx'
 import Login from './pages/Login.jsx'
 import Profile from './pages/Profile.jsx'
-
+//Added some navbar
 function App() {
   return (
     <BrowserRouter>
