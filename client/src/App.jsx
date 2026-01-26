@@ -1,13 +1,12 @@
 import './App.css'
 import Navbar from './components/Navbar.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
 import Home from './pages/Home.jsx'
 import FindDonor from './pages/FindDonor.jsx'
 import RegisterDonor from './pages/RegisterDonor.jsx'
 import Login from './pages/Login.jsx'
 import Profile from './pages/Profile.jsx'
-//Added some navbar
+
 function App() {
   return (
     <BrowserRouter>
