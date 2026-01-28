@@ -1,14 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @layer components {
     .nav-div {
-       @apply flex  space-x-5 relative ml-auto mt-5 mr-2
-       font-Inter;
+       @apply flex space-x-5 relative ml-auto mt-5 mr-2 font-bold 
+       ;
     }
-}
-@theme {
-    --font-Inter:"Inter",sans-serif;
+    .nav-link {
+        @apply ml-2 text-[#0077B6] p-2
+        hover:bg-[#0077B6] 
+        hover:text-[#ffffff];
+    }
+    
 }
