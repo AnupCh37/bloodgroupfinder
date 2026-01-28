@@ -2,7 +2,7 @@ import React from 'react'
 
 function RegisterDonor() {
   return (
-    <div>This is RegisterDonor Section</div>
+      <div className='min-h-[85vh]'>This is Register Donor Page</div>
   )
 }
 

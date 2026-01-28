@@ -5,8 +5,8 @@ import './components.css'
 function Navbar() {
     return (
         <>
-            <nav className='flex '>
-                <img className='h-[50px] w-[200px] m-3' src={logo} alt="logo" />
+            <nav className='flex'>
+                <img className='h-[50px] w-auto m-3' src={logo} alt="logo" />
                 <div className='nav-div '>
                     <Link className='nav-link' to="/">Home</Link>
                     <Link className='nav-link'  to="/find-donor">Find Donor</Link>

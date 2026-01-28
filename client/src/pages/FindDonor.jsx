@@ -2,7 +2,7 @@ import React from 'react'
 
 function FindDonor() {
   return (
-    <div>This is FindDonor Section</div>
+     <div className='min-h-[85vh]'>This is Find Donor Page</div>
   )
 }
 

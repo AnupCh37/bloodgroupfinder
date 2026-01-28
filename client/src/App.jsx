@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import FindDonor from './pages/FindDonor.jsx'
@@ -19,6 +20,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

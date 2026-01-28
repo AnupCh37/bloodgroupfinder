@@ -4,13 +4,23 @@
 
 @layer components {
     .nav-div {
-       @apply flex space-x-5 relative ml-auto mt-5 mr-2 font-bold 
+       @apply flex space-x-5 relative ml-auto mt-2 mr-2 font-bold  
        ;
     }
     .nav-link {
         @apply ml-2 text-[#0077B6] p-2
         hover:bg-[#0077B6] 
-        hover:text-[#ffffff];
+        hover:text-[#ffffff]
+        text-center;
     }
-    
+    .footer-div {
+        @apply w-full bg-[#0077B6] mb-0 h-9 text-white flex  
+        items-center justify-center
+        space-x-5;
+    }
+    .footer-icon  {
+        @apply m-[12px]
+        size-5 
+        ;
+    }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Profile() {
   return (
-    <div>This is Profile section</div>
+   <div className='min-h-[85vh]'>This is Profile Page</div>
   )
 }
 

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hero-main {
+    @apply text-[36px] font-semibold text-center m-auto;
+  }
+  .hero-main-discription{
+   @apply text-[22px] font-medium text-center 
+   m-auto;
+  }
+
+}
