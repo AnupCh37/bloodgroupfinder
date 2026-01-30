@@ -10,5 +10,21 @@
    @apply text-[22px] font-medium text-center 
    m-auto;
   }
+  .hero-search{
+    @apply flex
+  }
+  .input-form{
+  @apply w-auto bg-red-700 rounded-[6px]
+  h-[32px];
+  }
+  .search-button {
+    @apply  bg-red-600 ml-4 w-[80px] rounded-[6px];
+  }
+  .search-location {
+    @apply ml-4 w-[120px] rounded-[8px];
+  }
+  .search-icon {
+    @apply mt-2 mr-4;
+  }
 
 }
