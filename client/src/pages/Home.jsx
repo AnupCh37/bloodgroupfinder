@@ -7,7 +7,7 @@ function Home() {
         className='text-[#ff4a4a]'>Blood Donors</span>  Near You</h1>
        <p className='hero-main-discription'>Connecting blood donors with those in urgent need.</p>
        <div className='search-form'>
-        
+      
        </div>
     </div>
   )
