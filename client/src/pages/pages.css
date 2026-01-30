@@ -11,7 +11,10 @@
    m-auto;
   }
   .hero-search{
-    @apply flex
+    @apply flex ;
+  }
+  .search-section {
+    @apply relative ;
   }
   .input-form{
   @apply w-auto bg-red-700 rounded-[6px]
@@ -26,5 +29,5 @@
   .search-icon {
     @apply mt-2 mr-4;
   }
-
+   
 }
