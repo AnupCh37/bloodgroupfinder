@@ -19,9 +19,21 @@ function Home() {
     <button className='search-button'> Search </button>
      </form>
      </div>
-     <div className='what' >
-      <h1>How it works?</h1>
-  
+      <h1 className='work-title'>How it works?</h1>
+     <div className='work-cards' >
+       <div>
+       <h2>Search Donor</h2> 
+        </div>
+       <div>
+       <h2>Register as Donor</h2> 
+
+       </div>
+       <div>
+        <h2> Why Donate Blood?</h2>
+       </div>
+       <div>
+        <h2> Need Help?</h2>
+       </div>
      </div>
     </div>
   )
