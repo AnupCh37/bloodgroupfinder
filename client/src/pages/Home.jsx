@@ -19,6 +19,10 @@ function Home() {
     <button className='search-button'> Search </button>
      </form>
      </div>
+     <div className='what' >
+      <h1>How it works?</h1>
+  
+     </div>
     </div>
   )
 }

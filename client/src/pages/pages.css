@@ -14,14 +14,15 @@
     @apply flex ;
   }
   .search-section {
-    @apply relative ;
+    @apply  flex justify-center m-4  ;
   }
   .input-form{
-  @apply w-auto bg-red-700 rounded-[6px]
+  @apply w-auto bg-gray-50 rounded-[6px]
   h-[32px];
   }
   .search-button {
-    @apply  bg-red-600 ml-4 w-[80px] rounded-[6px];
+    @apply  bg-[#0077B6] ml-4 w-[80px] rounded-[6px]
+     text-[#ffffff];
   }
   .search-location {
     @apply ml-4 w-[120px] rounded-[8px];
