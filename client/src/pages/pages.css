@@ -35,6 +35,12 @@
   }
  
    .work-cards {
-    @apply flex justify-center  mt-6 bg-red-500;
+    @apply flex justify-center  mt-6 gap-x-16;
+   }
+   .work-card{
+    @apply bg-red-600 w-auto flex ;
+   }
+   .work-icon {
+    @apply size-8;
    }
 }

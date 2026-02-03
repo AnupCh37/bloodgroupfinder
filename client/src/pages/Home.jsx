@@ -1,6 +1,10 @@
 import React from 'react'
 import './pages.css'
 import {FaSearch} from "react-icons/fa"
+import {MdPersonSearch} from "react-icons/md"
+import {MdBloodtype} from "react-icons/md"
+import {BiSolidDonateBlood} from "react-icons/bi"
+import {FaQuestion} from "react-icons/fa6"
 function Home() {
   return (
     <div className='min-h-[85vh]'>
@@ -21,17 +25,20 @@ function Home() {
      </div>
       <h1 className='work-title'>How it works?</h1>
      <div className='work-cards' >
-       <div>
+       <div className='work-card'>
+      <MdPersonSearch className='work-icon'/>
        <h2>Search Donor</h2> 
         </div>
-       <div>
+       <div className='work-card'>
+       <MdBloodtype className='work-icon' />
        <h2>Register as Donor</h2> 
-
        </div>
-       <div>
+       <div className='work-card' >
+        <BiSolidDonateBlood className='work-icon'/>
         <h2> Why Donate Blood?</h2>
-       </div>
-       <div>
+       </div  >
+       <div className='work-card'>
+         <FaQuestion className='work-icon'/>
         <h2> Need Help?</h2>
        </div>
      </div>
