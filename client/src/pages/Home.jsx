@@ -1,4 +1,5 @@
 import React from 'react'
+//redudent code is used 
 import './pages.css'
 import {FaSearch} from "react-icons/fa"
 import {MdPersonSearch} from "react-icons/md"
