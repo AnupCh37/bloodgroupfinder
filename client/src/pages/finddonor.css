@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .find-donor-page{
+    @apply min-h-[85vh];
+    }
+.find-donor-page h1{
+    @apply text-center;
+}
+
+
+}

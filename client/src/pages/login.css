@@ -1,0 +1,12 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+@layer components {
+    .login-page {
+        @apply min-h-[85vh];
+    }
+    .login-page h1{
+        @apply text-center ;
+    }
+}

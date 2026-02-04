@@ -32,7 +32,7 @@
   }
   .work-title {
      @apply flex justify-center m-5
-     text-[36px] font-semibold;
+     text-[36px] font-semibold ;
   }
  
    .work-cards {
@@ -41,7 +41,7 @@
    }
    .work-card{
     @apply  bg-gray-50 w-[250px] h-64 
-     hover:translate-y-2 p-2;
+     hover:translate-y-2 p-2 ;
       
   }
    

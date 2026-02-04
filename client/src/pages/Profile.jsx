@@ -1,8 +1,10 @@
 import React from 'react'
-
+import './profile.css'
 function Profile() {
   return (
-   <div className='min-h-[85vh]'>This is Profile Page</div>
+   <div className='profile-page'>
+   <h1>This is Profile Page</h1>
+   </div>
   )
 }
 

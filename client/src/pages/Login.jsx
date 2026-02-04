@@ -1,8 +1,11 @@
 import React from 'react'
-
+import './login.css'
 function Login() {
   return (
-     <div className='min-h-[85vh]'>This is Login Page</div>
+     <div className='login-page'>
+      
+      <h1>This is login Page</h1>
+      </div>
   )
 }
 

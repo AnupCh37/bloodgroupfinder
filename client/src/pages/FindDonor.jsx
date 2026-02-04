@@ -1,8 +1,11 @@
 import React from 'react'
-
+import './finddonor.css'
 function FindDonor() {
   return (
-     <div className='min-h-[85vh]'>This is Find Donor Page</div>
+     <div className='find-donor-page'>
+      <h1>Find <span>Blood Donors</span> </h1>
+
+     </div>
   )
 }
 

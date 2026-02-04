@@ -1,0 +1,14 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+@layer components {
+    .profile-page {
+        @apply min-h-[85vh];
+    }
+    .profile-page h1{
+        @apply text-center ;
+    }
+
+}
+
