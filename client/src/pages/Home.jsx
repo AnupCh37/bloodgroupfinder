@@ -26,20 +26,32 @@ function Home() {
       <h1 className='work-title'>How it works?</h1>
      <div className='work-cards' >
        <div className='work-card'>
+        <div className='work-main'>
       <MdPersonSearch className='work-icon'/>
-       <h2>Search Donor</h2> 
+       <h2>Search Donor </h2> 
+       </div>
+     <p>Find nearby blood donors quickly based on blood group and location</p>
         </div>
        <div className='work-card'>
+        <div className='work-main'>
        <MdBloodtype className='work-icon' />
        <h2>Register as Donor</h2> 
+        </div>
+      <p >Sign up to become a blood donor and help save lives.</p>
        </div>
        <div className='work-card' >
+        <div className='work-main'>
         <BiSolidDonateBlood className='work-icon'/>
         <h2> Why Donate Blood?</h2>
-       </div  >
+        </div>
+        <p>Learn how blood donation saves lives and supports patients in need.</p>
+       </div>
        <div className='work-card'>
+        <div className='work-main'>
          <FaQuestion className='work-icon'/>
         <h2> Need Help?</h2>
+        </div>
+        <p>Get assistance, FAQs, and support for using the platform.</p>
        </div>
      </div>
     </div>
